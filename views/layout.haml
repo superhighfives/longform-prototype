@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %title Longform Prototype
+    %meta{:name => "description", :content => ""}
+    %meta{:name => "author", :content => ""}
+
+    %link{:href => "/stylesheets/application.css", :rel => "stylesheet", :type => "text/css"}
+    %script{:src => "//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"}
+  %body
+
+    .header
+      .wrapper
+        %h1 Longform Prototype
+
+    .content
+      .wrapper
+        =yield
+
+    .footer
+      .wrapper
+
+    %script{:src => "http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"}
+    %script{:src => "//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"}
