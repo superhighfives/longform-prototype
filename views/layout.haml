@@ -10,12 +10,12 @@
   %body
 
     .header
-      .wrapper
-        %h1 Longform Prototype
+      %h1 Longform
 
-    .content
-      .wrapper
-        =yield
+    .longform.empty{:contenteditable => "true"}
+      Longform is a new way to write.
+
+    =yield
 
     .footer
       .wrapper

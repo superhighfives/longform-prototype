@@ -19,3 +19,6 @@ doc/
 
 .sass-cache
 /bin
+
+# Project specific
+/public/fonts
